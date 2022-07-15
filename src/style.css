@@ -1,93 +1,108 @@
 * {
-  font-family: 'Roboto', sans-serif;
-  line-height: 30px;
-  font-weight: 100;
-  font-size: small;
-}
-
-body {
-  background-color: rgb(45, 100, 86);
-  display: grid;
-  place-items: center;
-}
-
-.main {
-  width: 50%;
-  height: auto;
-  background: rgb(256, 255, 255);
-  margin-top: 80px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
-}
-
-ul {
-  list-style-type: none;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
-.top {
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+.lists-container {
+  width: 60rem;
+  margin: 0 auto;
+  margin-top: 15rem;
+  border: 1px solid #e6e6e6;
+  box-shadow: 2px 2px 2px #e6e6e6;
+  z-index: 9;
+}
+
+.title-container,
+.input-container,
+.list {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 1.6rem;
+}
+
+.title-container,
+.input-container {
   display: flex;
   justify-content: space-between;
-  font-weight: 600;
 }
 
-li {
-  padding: 2px 8px;
-  height: 40px;
-  font-weight: 400;
-  border-bottom: 1px solid #ccc;
+.lists {
+  list-style: none;
+}
+
+.list {
+  font-size: 1.6rem;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-input {
-  border: none;
-  margin: 0 5px 0 0;
-  width: 98%;
-  height: 100%;
-  padding-left: 2px;
-  font-style: italic;
-}
-
-img {
-  height: 18px;
-  width: 18px;
-}
-
-.newlist {
-  display: flex;
-  flex-direction: column;
-  padding: 4px 8px;
-  justify-content: space-between;
-}
-
-.check {
-  width: 18px;
-  height: 18px;
-}
-
-.text {
-  width: 90%;
-}
-
-.text.complete {
-  text-decoration: line-through;
-}
-
-.newlist.complete li {
-  text-decoration: line-through;
-}
-
-.delete {
-  border-style: none;
-  width: 18px;
-  height: 18px;
-}
-
-.clear {
-  height: 40px;
+.list-left {
   display: flex;
   align-items: center;
+  gap: 0.8rem;
+}
+
+.clear-container {
+  padding: 1.6rem;
+  display: flex;
   justify-content: center;
-  background-color: rgba(58, 144, 211, 0.3);
+  background-color: #f8f8f8;
+}
+
+.title-container h2 {
+  font-size: 2rem;
+  color: #454545;
+}
+
+.input-container input,
+.todo {
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  padding: 0.4rem;
+}
+
+.input-container input::placeholder {
+  font-style: italic;
+  color: #cfcfcf;
+}
+
+.todo {
+  font-size: 1.6rem;
+}
+
+.list:focus-within,
+.todo:focus {
+  background-color: #ffff80;
+}
+
+.btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  z-index: 99;
+}
+.btn-refresh img {
+  height: 18px;
+  width: 18px;
+}
+
+.remove img {
+  width: 18px;
+  height: 18px;
+}
+.btn-clear {
+  color: #5c5c5c;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.cross {
+  text-decoration: line-through;
 }

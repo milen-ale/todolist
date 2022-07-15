@@ -1,6 +1,6 @@
 # To do List
 
-This is a simple ToDO List website. on complition the website will enable the user to set multiple todos with different functionality. Currently it's on it's first stage and it can only show the data which is manually inserted via javascript array.
+This is a simple ToDO List website. on complition the website will enable the user to set multiple todos with different functionality.
 
 # Built With
 
@@ -36,6 +36,7 @@ Give a ⭐️ if you like this project!
 
 # Acknowledgments
 
+MIcrovers Cariculum
 Hat tip to anyone whose code was used
 Inspiration
 etc
