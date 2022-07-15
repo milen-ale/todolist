@@ -17,6 +17,13 @@ To successfully utilize this project first of all you need to clone or download 
 
 . VS code . HTML, CSS and Javascript extension . node.js . WebPack
 
+# Setup
+
+- Clone the repository using the link https://github.com/milen-ale/todolist
+- Navigate to the folder using cd todo-list
+- Run npm install to install all the dependencies
+- Run npm start to fire a development server
+
 # Author
 
 👤 Milen Alebel
@@ -36,9 +43,7 @@ Give a ⭐️ if you like this project!
 
 # Acknowledgments
 
-MIcrovers Cariculum
-Hat tip to anyone whose code was used
-Inspiration
-etc
-📝 License
-This project is not licensed.
+- Microverse curriculum
+  etc
+  📝 License
+  This project is not licensed.

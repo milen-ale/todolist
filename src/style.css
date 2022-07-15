@@ -88,6 +88,7 @@ html {
   border: none;
   z-index: 99;
 }
+
 .btn-refresh img {
   height: 18px;
   width: 18px;
@@ -97,6 +98,7 @@ html {
   width: 18px;
   height: 18px;
 }
+
 .btn-clear {
   color: #5c5c5c;
   font-size: 1.6rem;
