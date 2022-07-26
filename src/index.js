@@ -1,15 +1,48 @@
-/* eslint-disable */
-import './style.css';
-import { clearAll, markCompleted } from './clear';
-import renderTodo from './crud';
+/* eslint-disable  */
+import './styel.css';
 
-const listsEl = document.querySelector('.lists');
-const btnClearEl = document.querySelector('.btn-clear');
+const form = document.getElementById('form');
+const listContainer = document.querySelector('.list-container');
+const clear = document.querySelector('.clear');
 
-window.addEventListener('load', renderTodo);
+// Event: Display todo list
+// window.addEventListener('load', displayTodo);
 
-listsEl.addEventListener('change', markCompleted);
-btnClearEl.addEventListener('click', () => {
-  clearAll();
-  renderTodo();
+// Event: Add todo
+// form.addEventListener('submit', (e) => {
+//   e.preventDefault();
+//   createTodo();
+// });
+
+// Event: delete todo
+listContainer.addEventListener('click', (e) => {
+  const clicked = e.target.closest('.delete');
+  if (!clicked) return;
+
+  Store.deleteTodo(+clicked.dataset.del);
+  displayTodo();
 });
+
+// Event: update todo
+listContainer.addEventListener('click', (e) => {
+  const clicked = e.target.closest('.todo-item');
+  if (!clicked) return;
+
+  clicked.addEventListener('keyup', () => {
+    const todoIndex = +clicked.dataset.todo;
+    const description = clicked.value.trim();
+
+    editTodos(todoIndex, description);
+  });
+});
+
+// Event: update status
+listContainer.addEventListener('click', (e) => {
+  const clicked = e.target.closest('.check-box');
+  if (!clicked) return;
+
+  updateStatus(+clicked.dataset.ind);
+});
+
+// Event: clear completed
+clear.addEventListener('click', clearCompleted);

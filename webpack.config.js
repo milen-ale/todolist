@@ -3,13 +3,28 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
   mode: 'development',
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+  entry: {
+    index: './src/index.js',
+    crud: './src/crudOps.js',
   },
-
+  devtool: 'inline-source-map',
+  devServer: {
+    static: './dist',
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    }),
+  ],
+  output: {
+    filename: '[name].js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
+  },
+  optimization: {
+    runtimeChunk: 'single',
+  },
   module: {
     rules: [
       {
@@ -17,26 +32,5 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
     ],
-  },
-
-  devServer: {
-    static: './dist',
-  },
-
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-    }),
-  ],
-
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-    clean: true,
-    publicPath: '/todolist/',
-  },
-
-  optimization: {
-    runtimeChunk: 'single',
   },
 };
