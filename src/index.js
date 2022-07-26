@@ -6,13 +6,13 @@ const listContainer = document.querySelector('.list-container');
 const clear = document.querySelector('.clear');
 
 // Event: Display todo list
-// window.addEventListener('load', displayTodo);
+window.addEventListener('load', displayTodo);
 
 // Event: Add todo
-// form.addEventListener('submit', (e) => {
-//   e.preventDefault();
-//   createTodo();
-// });
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  createTodo();
+});
 
 // Event: delete todo
 listContainer.addEventListener('click', (e) => {
