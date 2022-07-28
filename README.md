@@ -24,10 +24,6 @@ To successfully utilize this project first of all you need to clone or download 
 - Run npm install to install all the dependencies
 - Run npm start to fire a development server
 
-## Live Demo
-
-[Live demo link](https://milen-ale.github.io/todolist/)
-
 # Author
 
 👤 Milen Alebel
@@ -35,7 +31,6 @@ To successfully utilize this project first of all you need to clone or download 
 GitHub: @milen-ale
 Twitter: @milenalebel
 LinkedIn: @Milen Alebel
-
 
 👤 Thokozani Ngubane
 

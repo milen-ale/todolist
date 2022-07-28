@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Store, displayTodo } from './crudOps.js';
 
 const updateStatus = (ind) => {
