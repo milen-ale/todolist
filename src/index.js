@@ -40,7 +40,7 @@ listContainer.addEventListener('click', (e) => {
   });
 });
 
-// Event: update status
+// Event: update activity
 listContainer.addEventListener('click', (e) => {
   const clicked = e.target.closest('.check-box');
   if (!clicked) return;
