@@ -154,7 +154,6 @@ h1 {
 }
 
 .delete {
-  display: none;
   z-index: 5;
 }
 
@@ -170,7 +169,7 @@ h1 {
   display: none;
 }
 
-.fa-trash-can {
+.delete {
   color: #b6b6b8;
   opacity: 0.7;
   cursor: pointer;

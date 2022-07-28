@@ -1,4 +1,3 @@
-/* eslint-disable  */
 export class Store {
   // get todo items from local storage
   static getTodos = () => JSON.parse(localStorage.getItem('todos')) || [];
@@ -43,26 +42,36 @@ const displayTodo = () => {
     const listItem = document.createElement('div');
     listItem.className = `row list-item list-item-${index}`;
     listItem.innerHTML = `
-      <button class="check-box" data-index="${index}">
-        <span class="icon-check" data-completed="${completed}"></span>
-       
-      </button>
-      <input class="todo-item" type="text" data-todo="${index}" data-completed="${completed}" value='${description}' />
-      <button class="delete" data-del="${index}"></button>
-      <svg
-        width="25px"
-        height="30px"
-        class="icon-move"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
-          fill="#b6b6b8"
-        ></path>
-      </svg>
-    `;
-
+    <button class="check-box" data-ind="${index}">
+      <span class="icon-check" data-completed="${completed}"></span>
+      <i class="fa-solid fa-check" data-completed="${completed}"></i>
+    </button>
+    <input class="todo-item" type="text" data-todo="${index}" data-completed="${completed}" value='${description}' />
+    <button class="delete" data-del="${index}" <svg
+    width="25px"
+    height="30px"
+    class="icon-move"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+      fill="#b6b6b8"
+    ></path>
+  </svg></button>
+    <svg
+      width="25px"
+      height="30px"
+      class="icon-move"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+        fill="#b6b6b8"
+      ></path>
+    </svg>
+  `;
     listContainer.appendChild(listItem);
   });
 };

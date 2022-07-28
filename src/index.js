@@ -1,9 +1,13 @@
-/* eslint-disable  */
+/* eslint-disable */
+import { Store, displayTodo, createTodo, editTodos } from './crudOps.js';
+import { updateStatus, clearCompleted } from './status.js';
 import './styel.css';
 
 const form = document.getElementById('form');
 const listContainer = document.querySelector('.list-container');
 const clear = document.querySelector('.clear');
+
+// Add Event Listeners
 
 // Event: Display todo list
 window.addEventListener('load', displayTodo);

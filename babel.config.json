@@ -1,0 +1,8 @@
+/* eslint-disable */
+{
+  "env": {
+    "test": {
+      "presets": ["@babel/preset-env"]
+    }
+  }
+}
