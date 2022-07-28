@@ -36,6 +36,13 @@ GitHub: @milen-ale
 Twitter: @milenalebel
 LinkedIn: @Milen Alebel
 
+
+👤 Thokozani Ngubane
+
+GitHub: @MxoDevops
+Twitter: @godecuy
+LinkedIn: @thokozani-ngubane
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
