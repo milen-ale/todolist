@@ -108,3 +108,10 @@ html {
 .cross {
   text-decoration: line-through;
 }
+
+@media only screen and (max-width: 600px) {
+  .lists-container {
+    width: 70%;
+    align-items: center;
+  }
+}

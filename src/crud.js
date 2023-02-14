@@ -22,7 +22,7 @@ const renderTodo = () => {
       </span>
       <button class="btn remove" data-remove="${task.index}">
       <img
-      src="https://e7.pngegg.com/pngimages/179/938/png-clipart-computer-icons-hamburger-button-dots-kebab-menu-text-rectangle-thumbnail.png"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2GMSlHNvhza4X9lQo0-wi7IbOKb9atxowG29RaxDlhqfBY7QRFS7KAvjObtRrJ8nqC4A&usqp=CAU"
     />
       </button>
       </li>
