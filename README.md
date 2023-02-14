@@ -57,12 +57,16 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Todo List] <a name="about-project"></a>
-![hello-gif](https://i.gifer.com/7P5M.gif)
+![hello-gif]https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPqTGV8ZkiSlzFEIlutoAKqoP5D3KIXXqHt6X_geAFCMN5S70_8iIZByjfYTqz98VWzg&usqp=CAU)
 
-**[Todo List]** This is a simple ToDO List website. on complition the website will enable the user to set multiple todos with different functionality.
-
+**[Todo List]**
+A simple project to keep track of todo list.
 ## 🛠 Built With <a name="built-with"></a>
- 
+- HTML
+- CSS
+- Javascript
+- Webpack
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -102,7 +106,11 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 `Git` and `Node JS` installed on your computer.
 ```
- npm -v
+- A browser
+- A version control like git
+- A text editor
+- npm 
+
 ```
 
 ### Install
@@ -119,7 +127,10 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-   npm start # for serving the client on localhost:3000
+- Clone the repository using the link https://github.com/amejid/todo-list
+- Navigate to the folder using cd todo-list
+- Run npm install to install all the dependencies
+- Run npm start to fire a development server
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,7 +180,6 @@ Give a ⭐️ if you like this project!
 I would like to thank:
 - [Microverse](https://www.microverse.org/)
 - Code Reviewers
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
