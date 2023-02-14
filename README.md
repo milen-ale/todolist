@@ -134,6 +134,12 @@ To run the project, execute the following command:
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Live Demo
+
+[Live demo link](https://milen-ale.github.io/todolist/)
+
+# Author
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -143,15 +149,8 @@ To run the project, execute the following command:
 - GitHub: [@milen-ale](https://github.com/milen-ale)
 - Twitter: [@milenalebel2](https://twitter.com/milenalebel2)
 - LinkedIn: [MILEN ALEBL](https://linkedin.com/in/https://www.linkedin.com/in/milen-alebel/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Rotate refresh icon]**
-- [ ] **[Add more 'Hello world' messages]**
-- [ ] **[Construct the API with languages, and country greeting colors]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
