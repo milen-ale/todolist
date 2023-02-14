@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Todo List] <a name="about-project"></a>
-![hello-gif]https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPqTGV8ZkiSlzFEIlutoAKqoP5D3KIXXqHt6X_geAFCMN5S70_8iIZByjfYTqz98VWzg&usqp=CAU)
+![hello-gif](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPqTGV8ZkiSlzFEIlutoAKqoP5D3KIXXqHt6X_geAFCMN5S70_8iIZByjfYTqz98VWzg&usqp=CAU)
 
 **[Todo List]**
 A simple project to keep track of todo list.
